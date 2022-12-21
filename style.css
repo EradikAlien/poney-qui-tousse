@@ -1,15 +1,84 @@
 
 body {
-    padding-top: 8rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 3rem;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Grenze Gotisch', cursive;
+    background: url(bg2.jpg);
+    color: #ceac82;
+    font-size: 20px;
 }
 .logo {
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
+}
+#navbar {
+    background: transparent;
+}
+.custom-toggler.navbar-toggler {
+    border-color: #ceac82;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(206, 172, 130, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.nav-link {
+    color: #ceac82;
+    padding: 2rem;
+    margin-right: 50%;
+    font-size: 25px;
+    background: url(bg.jpg);
+    justify-content: end;
+}
+.nav-link:hover {
+    color: rgb(229, 188, 100);
+    text-decoration: underline;
+    }
+h2 {
+    font-size: 35px;
+}
+.toptitle {
+    width: 50%;
+    margin: auto;
+    padding-top: 0.5rem;
+}
+#jumbotron {
+    border: solid 3px #ceac82;
+}
+#jumbotron > p {
+    font-size: 1.6rem;
+}
+#jumbotron > h3 {
+    font-size: 2rem;
+}
+.card {
+    background: transparent;
+}
+ul {
+    list-style: none;
+}
+footer {
+    background: transparent;
+    color: #ceac82;
+}
+h4 {
+    padding-top: 3rem;
+}
+@media screen and (max-width: 767px) {
+    #alert {
+        padding: 0;
+    }
 }
 @media screen and (min-width: 768px) {
+    body {
+        padding-top: 5rem;
+        margin: 0 30rem;
+    }
     .logo {
         width: 10%;
         height: 10%;
+    }
+    .nav-link {
+        background: transparent;
+        padding: 0;
     }
 }
