@@ -63,6 +63,17 @@ footer {
 h4 {
     padding-top: 3rem;
 }
+p {
+    color: #ceac82;
+}
+h5 {
+    color: #ceac82;
+}
+@media screen and (max-width: 480px) {
+    #carouselExampleControls2 {
+        display: none;
+    }
+}
 @media screen and (max-width: 767px) {
     #alert {
         padding: 0;
@@ -81,4 +92,7 @@ h4 {
         background: transparent;
         padding: 0;
     }
+    /* #carouselExampleControls {
+        display: none;
+    } */
 }
