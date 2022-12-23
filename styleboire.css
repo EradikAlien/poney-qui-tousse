@@ -1,0 +1,19 @@
+.badge {
+    color: #ceac82;
+}
+.foodli {
+    width: 30%;
+    margin: auto;
+}
+li {
+    font-size: 1.4rem;
+}
+h3 {
+    text-decoration-line: underline;
+}
+.description {
+    font-size: 16px;
+    color: white;
+    align-self: flex-start;
+    padding-bottom: 1rem;
+}

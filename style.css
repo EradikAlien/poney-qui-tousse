@@ -43,6 +43,7 @@ h2 {
 }
 #jumbotron {
     border: solid 3px #ceac82;
+    border-radius: 15%;
 }
 #jumbotron > p {
     font-size: 1.6rem;
@@ -52,6 +53,9 @@ h2 {
 }
 .card {
     background: transparent;
+}
+.imgcard {
+    border-radius: 10%;
 }
 ul {
     list-style: none;
