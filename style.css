@@ -73,9 +73,7 @@ h5 {
     color: #ceac82;
 }
 @media screen and (max-width: 480px) {
-    #carouselExampleControls2 {
-        display: none;
-    }
+
 }
 @media screen and (max-width: 767px) {
     #alert {
@@ -95,7 +93,4 @@ h5 {
         background: transparent;
         padding: 0;
     }
-    /* #carouselExampleControls {
-        display: none;
-    } */
 }
