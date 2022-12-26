@@ -33,7 +33,68 @@
     </nav>
     <div class="container text-center overflow-hidden">
         <div class="row g-3">
-            <h2><img src="essai.png" alt="" width="20%">Contact<img src="essai.png" alt="" width="20%"></h2>
+            <h1><img src="essai.png" alt="">Contact<img src="essai.png" alt=""></h1>
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Nom</label>
+                  <input type="text" class="form-control" id="validationCustom01"required>
+                  <div class="invalid-feedback">
+                    T'es sûr ?
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Prénom</label>
+                  <input type="text" class="form-control" id="validationCustom02"required>
+                  <div class="invalid-feedback">
+                    Vraiment ??
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Email</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Si tu le dis...
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Adresse</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    C'est où ça ?
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom04" class="form-label">Sujet</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Au choix</option>
+                    <option>Réservations</option>
+                    <option>Allergènes</option>
+                    <option>Annulation</option>
+                    <option>Plaintes</option>
+                    <option>Jobs</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Choisis une option
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Termes et conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      Vous devez valider nos termes et conditions avant de continuer.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Soumettre</button>
+                </div>
+              </form>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

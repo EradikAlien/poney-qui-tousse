@@ -26,3 +26,18 @@
     background-color: white !Important;
     border: solid 1px #ceac82;
 }
+.photo {
+    width: 100%;
+    border: solid 3px #ceac82;
+    margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 992px) {
+    body {
+        padding-top: 6.5rem;
+        margin: 0 5rem;
+    }
+    .photo {
+        width: 33%;
+        margin-bottom: 0.2rem;
+    }
+}
