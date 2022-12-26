@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" aria-current="page" href="index.html">Acceuil</a>
-                    <a class="nav-link" href="menu.html">Menu</a>
+                    <a class="nav-link" href="menu2.html">Menu</a>
                     <a class="nav-link" href="pictures.html">Galerie</a>
                     <a class="nav-link" href="restaurant.html">Restaurant</a>
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -102,62 +102,108 @@
                     <a class="btn btn-outline-light btn-lg" href="restaurant.html" role="button">En savoir plus</a>
             </div>
 <!-- panel info -->
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active mt-5" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" class="mt-5" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="mt-5" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="mt-5" aria-label="Slide 4"></button>
+        <!-- Carousel desktop -->
+            <div id="carouselMultiItemExample" class="carousel slide carousel-light text-center" data-bs-ride="carousel">
+
+        <!-- Controls -->
+                <div class="d-flex justify-content-center mb-4">
+                    <button class="carousel-control-prev position-relative btn-light" type="button" data-bs-target="#carouselMultiItemExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next position-relative btn-light" type="button" data-bs-target="#carouselMultiItemExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner mb-4">
-                        <div class="col-md-6">
-                            <div class="card carousel-item active" style="width: 100%;">
-                                <img src="gruau3.png" class="imgcard card-img-top" alt="gruau">
-                                <div class="card-body">
-                                    <h5 class="card-title">Menu de Noël</h5>
-                                    <p class="card-text">Venez goûter notre gruau de Noël !</p>
-                                    <a href="manger.html" class="btn btn-outline-light">Explorez notre menu</a>
+
+        <!-- Inner -->
+                <div class="carousel-inner py-4">
+
+        <!-- Single item -->
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="card">
+                                        <img src="gruau3.png" class="card-img-top" alt="Gruau"/>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Menu de Noël</h5>
+                                            <p class="card-text">Venez goûter notre gruau de Noël !</p>
+                                            <a href="menu2.html" class="btn btn-outline-light">Explorez notre menu</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                
-                            <div class="card carousel-item" style="width: 100%;">
-                                <img src="bière-naine.png" class="imgcard card-img-top" alt="Bière">
-                                <div class="card-body">
-                                    <h5 class="card-title">Boisson de Noël</h5>
-                                    <p class="card-text">Dégustez nos bières artisanales !</p>
-                                    <a href="boire.html" class="btn btn-outline-light">Découvrez nos boissons</a>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <div class="card">
+                                        <img src="choucroutilfette.jpg" class="card-img-top" alt="Choucroutiflette"/>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nouveautée !</h5>
+                                            <p class="card-text">Choucroutiflette, votre nouvelle saveur phare !</p>
+                                            <a href="menu2.html" class="btn btn-outline-light">Essayez dès aujourd'hui</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <div class="card">
+                                        <img src="vin-elfe.png" class="card-img-top" alt="vin elfe"/>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Vin forestier de Laritournel</h5>
+                                            <p class="card-text">Une sélection de vin raffiné</p>
+                                            <a href="menu2.html" class="btn btn-outline-light">Notre carte boisson complète</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card carousel-item" style="width: 100%;">
-                                <img src="choucroutilfette.jpg" class="imgcard card-img-top" alt="choucroutilfette">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nouveautée !</h5>
-                                    <p class="card-text">Choucroutiflette, votre nouvelle saveur phare !</p>
-                                    <a href="manger.html" class="btn btn-outline-light">Essayez dès aujourd'hui</a>
+                    </div>
+
+        <!-- Single item -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="card">
+                                        <img src="bière-naine.png" class="card-img-top" alt="Bière naine"/>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Boisson de Noël</h5>
+                                            <p class="card-text">Dégustez nos bières artisanales !</p>
+                                            <a href="menu2.html" class="btn btn-outline-light">Découvrez nos boissons</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                
-                            <div class="card carousel-item" style="width: 100%;">
-                                <img src="vin-elfe.png" class="imgcard card-img-top" alt="vin elfe">
-                                <div class="card-body">
-                                    <h5 class="card-title">Vin forestier de Laritournel</h5>
-                                    <p class="card-text">Une sélection de vin raffiné</p>
-                                    <a href="boire.html" class="btn btn-outline-light">Notre carte boisson complète</a>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <div class="card">
+                                        <img src="soupe.jpg" class="card-img-top" alt="Soupe"/>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Soupe de saison</h5>
+                                            <p class="card-text">Notre soupe est toujours de saison !</p>
+                                            <a href="menu2.html" class="btn btn-outline-light">Choix d'entrées</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <div class="card">
+                                        <img src="ours-bière.jpg" class="card-img-top" alt="Ours à la bière"/>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Ours à la bière</h5>
+                                            <p class="card-text">Intemporelle, incontournable !</p>
+                                            <a href="menu2.html" class="btn btn-outline-light">Menu</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                    </div>
                 </div>
-            </div> 
+
+        <!-- Inner -->
+            </div>
+        <!-- Carousel wrapper -->
 
 <!-- Menu star -->
             <div class="col-12 pt-2">
@@ -175,7 +221,7 @@
                     <li class="list-group-item-transparent p-2">Choucroutiflette</li>
                 </ul>
             </div>
-            <div class="p-3 bg-transparent"><a class="btn btn-outline-light" href="menu.html" role="button">Voir le menu complet</a></div>
+            <div class="p-3 bg-transparent"><a class="btn btn-outline-light" href="menu2.html" role="button">Voir le menu complet</a></div>
 <!-- horaires -->
             <h3><img src="essai.png" alt="" width="20%">Nos horaires :<img class="mirrorimg" src="essai.png" alt="" width="20%"></h3>
             <div class="col-4">

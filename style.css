@@ -50,8 +50,10 @@ h2 {
 #jumbotron > h3 {
     font-size: 2rem;
 }
+
 .card {
     background: transparent;
+    border: solid 1px #ceac82;
 }
 .imgcard {
     border-radius: 10%;
@@ -72,18 +74,11 @@ p {
 h5 {
     color: #ceac82;
 }
-@media screen and (max-width: 480px) {
 
-}
-@media screen and (max-width: 767px) {
-    #alert {
-        padding: 0;
-    }
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 481px) {
     body {
         padding-top: 5rem;
-        margin: 0 30rem;
+        margin: 0 3rem;
     }
     .logo {
         width: 10%;
@@ -93,4 +88,25 @@ h5 {
         background: transparent;
         padding: 0;
     }
+}
+@media screen and (max-width: 767px) {
+    #alert {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        padding-top: 5rem;
+        margin: 0 25rem;
+    }
+    .logo {
+        width: 10%;
+        height: 10%;
+    }
+    .nav-link {
+        background: transparent;
+        padding: 0;
+    }
+
 }

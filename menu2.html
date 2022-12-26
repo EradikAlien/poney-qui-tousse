@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Poney qui Tousse</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemanger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" role="navigation" id="navbar">
+        <div class="container-fluid" id="navfluid">
+                <img class="logo" src="poney-tousse3.png" alt="Logo du Poney qui Tousse" class="d-inline-block align-text-top">
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">Acceuil</a>
+                    <a class="nav-link" href="menu2.html">Menu</a>
+                    <a class="nav-link" href="pictures.html">Galerie</a>
+                    <a class="nav-link" href="restaurant.html">Restaurant</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center overflow-hidden">
+        <div class="row g-3">
+            <h1><img src="essai.png" alt="" width="20%">Menu<img src="essai.png" alt="" width="20%"></h2>
+<!-- Main accordion -->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+    <!-- accordion manger -->
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="background: transparent; color: #ceac82;">
+                        <img src="essai.png" alt="" width="12%">
+                        <h3>Manger</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+            <!-- secondary accordion -->
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background: transparent; color: #ceac82;">
+                                      <h5 style="font-size: 1.5rem;">Entrées</h5>                                
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="list-group">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Fromage des collines d'Altrouille
+                                                <span class="badge bg-transparent rounded-pill">3 pièces d'or</span>
+                                            </li>
+                                            <div class="description">Assortiment de fromage de Rondmeule</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Charcuterie de Tourneporc
+                                                <span class="badge bg-transparent rounded-pill">3 pièces d'or</span>
+                                            </li>
+                                            <div class="description">Jambons, saucissons et rillettes du Mooté</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Assiette Mixte
+                                                <span class="badge bg-transparent rounded-pill">4 pièces d'or</span>
+                                            </li>
+                                            <div class="description">Combinaison de fromage et de charcuterie</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Soupe de saison
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'argent</span>
+                                            </li>
+                                            <div class="description">Légumes trouvés dans les poubelles</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Pain sec
+                                                <span class="badge bg-transparent rounded-pill">3 pièces d'argent</span>
+                                            </li>
+                                            <div class="description">Du pain, mais sec</div>
+                                          </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background: transparent; color: #ceac82;">
+                                        <h5 style="font-size: 1.5rem;">Plats principaux</h5>
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="list-group">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Ours à la bière
+                                                <span class="badge bg-transparent rounded-pill">7 pièces d'or</span>
+                                            </li>
+                                            <div class="description">Steak d'ours mariné à la bière naine des montagnes</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Ragoût en conserve du Mooté
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'or</span>
+                                            </li>
+                                            <div class="description">Une conserve de ragoût du Mooté, fraîchement ouverte</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Poisson fumé de Shub'Nig
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'or</span>
+                                            </li>
+                                            <div class="description">Poisson doucement fumé aux herbes de la Comté</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Gonades du perdant de l'Arène
+                                            <span class="badge bg-transparent rounded-pill">7 pièces d'or</span>
+                                            </li>
+                                            <div class="description">Dépend du programme de l'Arène, et du vainqueur</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Gruau d'avoine
+                                                <span class="badge bg-transparent rounded-pill">3 pièces d'or</span>
+                                            </li>
+                                            <div class="description">Gruau d'avoine frais aux petits raisons secs</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Salmigondis de canard
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'or</span>
+                                            </li>
+                                            <div class="description">Magret de canard, lardons, miel et vin blanc</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Choucroutiflette
+                                                <span class="badge bg-transparent rounded-pill">7 pièces d'or</span>
+                                            </li>
+                                            <div class="description">Gratin de pommes de terre, choux, saucisses, lardons et reblochon</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Assortiment pour Elfe
+                                                <span class="badge bg-transparent rounded-pill">4 pièces d'or</span>
+                                            </li>
+                                            <div class="description">Des trucs verts qui poussent dans le sol</div>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background: transparent; color: #ceac82;">
+                                        <h5 style="font-size: 1.5rem;">Suppléments</h5>
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="list-group">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Pom'frites
+                                                <span class="badge bg-transparent rounded-pill">2 pièces d'argent</span>
+                                            </li>
+                                            <div class="description">Bâtonnets de pommes de terre cuits à l'huile</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Compote de pommes
+                                                <span class="badge bg-transparent rounded-pill">2 pièces d'argent</span>
+                                            </li>
+                                            <div class="description">Pommes écrasées sous nos pieds</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Cailloux
+                                                <span class="badge bg-transparent rounded-pill">1 pièce d'argent</span>
+                                            </li>
+                                            <div class="description">Une sélection de nos plus beaux cailloux</div>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="background: transparent; color: #ceac82;">
+                                        <h5 style="font-size: 1.5rem;">Desserts</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                        <ul class="list-group">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Trocoule au chocolat
+                                                <span class="badge bg-transparent rounded-pill">7 pièces d'argent</span>
+                                            </li>
+                                            <div class="description">Pâtisserie à l'enveloppe fondante et au coeur croustillant</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Boule de glace
+                                                <span class="badge bg-transparent rounded-pill">4 pièces d'argent</span>
+                                            </li>
+                                            <div class="description">Une boule de glace, parfum au choix</div>
+                                            <hr class="foodli">
+                                            <li class="list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Brioche de Grospanier
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'argent</span>
+                                            </li>
+                                            <div class="description">Une brioche sucrée avec confiture et chocolat</div>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+            <!-- end secondary -->
+                        </div>
+                    </div>
+                </div>
+    <!-- accordion boire -->
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" style="background: transparent; color: #ceac82;">
+                        <img src="essai.png" alt="" width="12%">
+                        <h3>Boire</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+            <!-- secondary boire -->
+                            <div class="accordion" id="accordionBoire">
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background: transparent; color: #ceac82;">
+                                        <h5 style="font-size: 1.5rem;">Bières</h5>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionBoire">
+                                    <div class="accordion-body">
+                                        <ul class="list-group">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Bière de luxe de Grospanier
+                                                <span class="badge bg-transparent rounded-pill">7 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Bière Framboise de Chnafon
+                                                <span class="badge bg-transparent rounded-pill">6 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Bière Balarik blonde
+                                                <span class="badge bg-transparent rounded-pill">5 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Bière Balarik spéciale
+                                                <span class="badge bg-transparent rounded-pill">7 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Bière Frattengel
+                                                <span class="badge bg-transparent rounded-pill">3 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Bière Chapeaumou Blonde
+                                                <span class="badge bg-transparent rounded-pill">3 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Bière Dilarik noire
+                                                <span class="badge bg-transparent rounded-pill">5 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Bière Dilarik noire spéciale
+                                                <span class="badge bg-transparent rounded-pill">6 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Bière Turlada ambrée
+                                                <span class="badge bg-transparent rounded-pill">5 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Bière Turlada Fraise
+                                                <span class="badge bg-transparent rounded-pill">5 pièces d'argent</span>
+                                            </li>
+                                          </ul>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background: transparent; color: #ceac82;">
+                                        <h5 style="font-size: 1.5rem;">Vins</h5>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionBoire">
+                                    <div class="accordion-body">
+                                        <ul class="list-group">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin rouge Côtes de Grask
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin des côteaux de Glargh
+                                                <span class="badge bg-transparent rounded-pill">7 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin Grand cru de Glargh
+                                                <span class="badge bg-transparent rounded-pill">10 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin d'Opale de Kjaniouf
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin des Côteaux de Nuvini
+                                                <span class="badge bg-transparent rounded-pill">5 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin rouge Côtes de Tulamor
+                                                <span class="badge bg-transparent rounded-pill">4 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin forestier de Laritournel
+                                                <span class="badge bg-transparent rounded-pill">6 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin blanc de Chnafon
+                                                <span class="badge bg-transparent rounded-pill">4 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin blanc de Labik
+                                                <span class="badge bg-transparent rounded-pill">5 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin ambré de Fquiepou
+                                                <span class="badge bg-transparent rounded-pill">7 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin rosé de Bardol
+                                                <span class="badge bg-transparent rounded-pill">9 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin des Terres Sauvages
+                                                <span class="badge bg-transparent rounded-pill">9 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Vin des Mages Côtiers
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'argent</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background: transparent; color: #ceac82;">
+                                        <h5 style="font-size: 1.5rem;">Alcools et spiritueux</h5>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionBoire">
+                                    <div class="accordion-body">
+                                        <ul class="list-group">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Gnôle Digestive des Collines
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Gnôle de prune du Mooté
+                                                <span class="badge bg-transparent rounded-pill">9 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Gnôle de poire du Mooté
+                                                <span class="badge bg-transparent rounded-pill">9 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Gnôle Vieille de Grospanier
+                                                <span class="badge bg-transparent rounded-pill">10 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Hydromel aux fruits
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Rhum du Boucanier
+                                                <span class="badge bg-transparent rounded-pill">7 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                L'alcool-Cercueil
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Liqueur des jardins de Fquiepou
+                                                <span class="badge bg-transparent rounded-pill">9 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Liqueur des moines hors d'âge
+                                                <span class="badge bg-transparent rounded-pill">15 pièces d'argent</span>
+                                            </li>
+                                            <hr class="foodli">
+                                            <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                Liqueur de Sapin du Nord
+                                                <span class="badge bg-transparent rounded-pill">8 pièces d'argent</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="background: transparent; color: #ceac82;">
+                                            <h5 style="font-size: 1.5rem;">Softs</h5>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionBoire">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                    Purin d'orties de Tirlouit
+                                                    <span class="badge bg-transparent rounded-pill">1 pièce d'argent</span>
+                                                </li>
+                                                <hr class="foodli">
+                                                <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                    Jus de baies des Sylvains
+                                                    <span class="badge bg-transparent rounded-pill">2 pièces d'argent</span>
+                                                </li>
+                                                <hr class="foodli">
+                                                <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                    Jus de framboises
+                                                    <span class="badge bg-transparent rounded-pill">3 pièces d'argent</span>
+                                                </li>
+                                                <hr class="foodli">
+                                                <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                    Jus de pommes de Schlipak
+                                                    <span class="badge bg-transparent rounded-pill">3 pièces d'argent</span>
+                                                </li>
+                                                <hr class="foodli">
+                                                <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                    Jus de fraises des bois
+                                                    <span class="badge bg-transparent rounded-pill">4 pièces d'argent</span>
+                                                </li>
+                                                <hr class="foodli">
+                                                <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                    Jus de pommes qui pique
+                                                    <span class="badge bg-transparent rounded-pill">2 pièces d'argent</span>
+                                                </li>
+                                                <hr class="foodli">
+                                                <li class="lidrink list-group-item-transparent d-flex justify-content-between align-items-center">
+                                                    Eau
+                                                    <span class="badge bg-transparent rounded-pill">1 pièce d'argent</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    </div>
+                            </div>
+            <!-- end secondary boire -->
+                        </div>
+                    </div>
+                </div>
+    <!-- fin boire -->
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
